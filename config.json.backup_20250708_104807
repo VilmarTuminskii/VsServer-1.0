@@ -1,0 +1,13 @@
+{
+    "connections": [
+        {
+            "id": "c8339b32-7b6f-43ac-86f4-3668290809a3",
+            "name": "Storage",
+            "ip": "10.1.1.110",
+            "username": "visualsoftware",
+            "save_password": true,
+            "password": "gAAAAABobSGXb_Mn9HdNZWvziSlzuUyUptiJ8-hvcvgTlgC2yYuVsg5C1ohotdqQHjbKY2_sdpWdkEt36B3M08MK_D_sH3As0Q=="
+        }
+    ],
+    "last_connection_id": "c8339b32-7b6f-43ac-86f4-3668290809a3"
+}
