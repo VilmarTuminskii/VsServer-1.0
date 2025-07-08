@@ -21,10 +21,7 @@ COLORS = {
     "text": "#F5F5F5",
     "success": "#22C55E",
     "error": "#EF4444",
-    "border": "#374151",
-    "window": "#d3d3d3",
-    "titleGradientStart": "#87ceeb",
-    "titleGradientEnd": "#4682b4"
+    "border": "#374151"
 }
 FONTS = {
     "title": ("Inter", 24, "bold"),
@@ -137,44 +134,34 @@ class UserManagerApp:
 
     def _show_login(self):
         self._clear_window()
-        frame = ctk.CTkFrame(self.app, fg_color=COLORS["window"])
-        frame.place(relx=0.5, rely=0.5, anchor="center", width=300, height=400)
-
-        # Title Bar
-        title_bar = ctk.CTkFrame(frame, fg_color="transparent", height=30)
-        title_bar.pack(fill="x")
-        title_label = ctk.CTkLabel(title_bar, text="Sign In", font=FONTS["title"], text_color="white",
-                                 fg_color="transparent")
-        title_label.place(relx=0.5, rely=0.5, anchor="center")
-        ctk.CTkLabel(title_bar, text="X", font=FONTS["label"], text_color="black",
-                    fg_color="gray", width=20, height=20, corner_radius=10).place(x=270, y=5)
-
-        # User Icon
-        user_icon = ctk.CTkLabel(frame, text="", fg_color="white", width=80, height=80,
-                               corner_radius=40, border_width=2, border_color=COLORS["border"])
-        user_icon.place(relx=0.5, rely=0.25, anchor="center")
-
-        # Input Fields
-        login_entry = ctk.CTkEntry(frame, placeholder_text="Login", width=200, height=30,
-                                 border_width=2, border_color=COLORS["border"], fg_color="white")
-        login_entry.place(relx=0.5, rely=0.45, anchor="center")
+        frame = ctk.CTkFrame(self.app, fg_color="transparent")
+        frame.place(relx=0.5, rely=0.5, anchor="center")
         
-        password_entry = ctk.CTkEntry(frame, placeholder_text="Password", width=200, height=30,
-                                    border_width=2, border_color=COLORS["border"], fg_color="white", show="*")
-        password_entry.place(relx=0.5, rely=0.55, anchor="center")
-
-        # Login Button
-        login_btn = ctk.CTkButton(frame, text="Sign in", width=80, height=30, corner_radius=0,
-                                border_width=2, border_color=COLORS["border"], fg_color=COLORS["window"],
-                                hover_color=COLORS["window"], command=self._verify_login)
-        login_btn.place(relx=0.5, rely=0.7, anchor="center")
-
-        # Cursor Icon (simulated)
-        cursor_label = ctk.CTkLabel(frame, text="", width=16, height=16, fg_color="transparent")
-        cursor_label.place(x=270, y=360)
-
-        self.entry_admin_user = login_entry
-        self.entry_admin_pass = password_entry
+        # Login Card
+        card = ctk.CTkFrame(frame, fg_color=COLORS["card"], corner_radius=20, border_width=2, border_color=COLORS["border"])
+        card.pack(pady=20, padx=20)
+        
+        ctk.CTkLabel(card, text="VsServer", font=FONTS["title"], text_color=COLORS["text"]).pack(pady=(30, 10))
+        ctk.CTkLabel(card, text="Gerenciador de Servidores", font=FONTS["subtitle"], text_color=COLORS["text"]).pack(pady=(0, 30))
+        
+        # Input Fields
+        input_frame = ctk.CTkFrame(card, fg_color="transparent")
+        input_frame.pack(padx=40, pady=10, fill="x")
+        
+        for label, placeholder, attr, show in [
+            ("Usuário", "Digite o usuário", "entry_admin_user", ""),
+            ("Senha", "Digite a senha", "entry_admin_pass", "*")
+        ]:
+            ctk.CTkLabel(input_frame, text=label, font=FONTS["label"]).pack(anchor="w", pady=(10, 2))
+            entry = ctk.CTkEntry(input_frame, width=300, font=FONTS["label"], corner_radius=10, 
+                               placeholder_text=placeholder, show=show, border_color=COLORS["border"])
+            entry.pack(fill="x", pady=5)
+            setattr(self, attr, entry)
+        
+        ctk.CTkButton(card, text="Entrar", command=self._verify_login, font=FONTS["button"],
+                     fg_color=COLORS["primary"], hover_color=COLORS["secondary"], 
+                     corner_radius=10, height=45).pack(pady=30, padx=40, fill="x")
+        
         self.entry_admin_pass.bind("<Return>", lambda _: self._verify_login())
 
     def _verify_login(self):
