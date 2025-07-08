@@ -57,3 +57,26 @@
 2025-07-08 10:50:32,027 [INFO] Conexão SSH: 10.1.1.110
 2025-07-08 10:50:32,255 [INFO] Atividade de usuários listada
 2025-07-08 10:50:34,761 [INFO] Histórico exibido
+2025-07-08 11:49:04,556 [INFO] Login: admin
+2025-07-08 11:49:17,699 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-08 11:49:17,761 [INFO] Authentication (password) successful!
+2025-07-08 11:49:17,764 [INFO] Conexão SSH: 10.1.1.110
+2025-07-08 11:49:18,542 [INFO] Usuários listados
+2025-07-08 14:42:18,236 [WARNING] Falha no login: 
+2025-07-08 14:42:28,930 [WARNING] Falha no login: admin123
+2025-07-08 14:42:37,651 [INFO] Login: admin
+2025-07-08 15:26:27,872 [INFO] Login: admin
+2025-07-08 15:26:37,712 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-08 15:26:37,830 [INFO] Authentication (password) successful!
+2025-07-08 15:26:37,831 [INFO] Conexão SSH: 10.1.1.110
+2025-07-08 15:26:37,836 [INFO] Teste de conexão bem-sucedido
+2025-07-08 15:26:42,143 [INFO] Histórico exibido
+2025-07-08 15:26:48,762 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-08 15:26:48,829 [INFO] Authentication (password) successful!
+2025-07-08 15:26:48,829 [INFO] Conexão SSH: 10.1.1.110
+2025-07-08 15:26:49,218 [INFO] Atividade de usuários listada
+2025-07-08 15:26:51,400 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-08 15:26:51,479 [INFO] Authentication (password) successful!
+2025-07-08 15:26:51,479 [INFO] Conexão SSH: 10.1.1.110
+2025-07-08 15:26:52,397 [INFO] Usuários listados
+2025-07-08 15:33:47,499 [INFO] Login: admin
