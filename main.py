@@ -1162,3 +1162,5 @@ class UserManagerApp:
 
 if __name__ == "__main__":
     UserManagerApp().run()
+
+# inicio da refatoração do código na branch build
