@@ -58,7 +58,3 @@ Contribuições são bem-vindas! Se você tiver sugestões de melhorias, relató
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Desenvolvido com ❤️ por [Vilmar Tuminskii](https://github.com/VilmarTuminskii)

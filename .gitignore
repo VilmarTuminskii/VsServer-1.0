@@ -1,2 +1,24 @@
+# Arquivos ignorados para VsServer-1.0
+
+# Arquivo de log
 logs_servidores.log
+
+# Arquivo usado pelo Google Drive para parear arquivos
 desktop.ini
+
+# Arquivos de configuração da aplicação
+# É recomendado manter config.json fora do controle de versão, pois pode conter dados sensíveis.
+# Um arquivo config.json.example deve ser fornecido para referência.
+config.json
+config.json.backup_*
+
+# Chave de criptografia - CRÍTICO: NUNCA FAÇA COMMIT DESTE ARQUIVO!
+# Este arquivo contém a chave usada para criptografar dados sensíveis (como senhas).
+# Fazer commit dele exporia seus dados criptografados.
+encryption_key.key
+
+# Bytecode Python
+__pycache__/
+
+# Diretório do ambiente virtual
+venv/

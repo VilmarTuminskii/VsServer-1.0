@@ -1,0 +1,13 @@
+{
+    "connections": [
+        {
+            "id": "your-connection-id-here",
+            "name": "Example Server",
+            "ip": "192.168.1.100",
+            "username": "your_ssh_username",
+            "save_password": false,
+            "password": null
+        }
+    ],
+    "last_connection_id": null
+}
