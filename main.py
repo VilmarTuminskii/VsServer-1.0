@@ -1162,3 +1162,5 @@ class UserManagerApp:
 
 if __name__ == "__main__":
     UserManagerApp().run()
+
+    # Branch destinada a refatoração do código, vamos reeescrevelo em outra linguagem
