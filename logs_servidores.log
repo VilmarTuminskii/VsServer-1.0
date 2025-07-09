@@ -80,3 +80,52 @@
 2025-07-08 15:26:51,479 [INFO] Conexão SSH: 10.1.1.110
 2025-07-08 15:26:52,397 [INFO] Usuários listados
 2025-07-08 15:33:47,499 [INFO] Login: admin
+2025-07-09 00:26:57,536 [INFO] Login: admin
+2025-07-09 00:27:29,631 [ERROR] Falha na conexão SSH: timed out
+2025-07-09 00:27:42,307 [ERROR] Falha na conexão SSH: timed out
+2025-07-09 08:22:00,905 [INFO] Login: admin
+2025-07-09 08:22:10,420 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:22:10,559 [INFO] Authentication (password) successful!
+2025-07-09 08:22:10,560 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:22:11,515 [INFO] Usuários listados
+2025-07-09 08:25:55,625 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:25:55,793 [INFO] Authentication (password) successful!
+2025-07-09 08:25:55,793 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:25:55,798 [INFO] Teste de conexão bem-sucedido
+2025-07-09 08:25:57,483 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:25:57,573 [INFO] Authentication (password) successful!
+2025-07-09 08:25:57,575 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:25:57,578 [INFO] Teste de conexão bem-sucedido
+2025-07-09 08:25:59,561 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:25:59,639 [INFO] Authentication (password) successful!
+2025-07-09 08:25:59,639 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:25:59,641 [INFO] Teste de conexão bem-sucedido
+2025-07-09 08:26:01,442 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:26:01,523 [INFO] Authentication (password) successful!
+2025-07-09 08:26:01,524 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:26:01,526 [INFO] Teste de conexão bem-sucedido
+2025-07-09 08:26:04,660 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:26:04,733 [INFO] Authentication (password) successful!
+2025-07-09 08:26:04,733 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:26:04,736 [INFO] Teste de conexão bem-sucedido
+2025-07-09 08:26:12,255 [INFO] Histórico exibido
+2025-07-09 08:27:17,296 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:27:17,361 [INFO] Authentication (password) successful!
+2025-07-09 08:27:17,361 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:27:17,973 [INFO] Grupos listados
+2025-07-09 08:29:11,251 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:29:11,386 [INFO] Authentication (password) successful!
+2025-07-09 08:29:11,387 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:29:12,481 [INFO] Grupos listados
+2025-07-09 08:29:27,028 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:29:27,155 [INFO] Authentication (password) successful!
+2025-07-09 08:29:27,157 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:29:27,378 [INFO] Espaço em disco verificado
+2025-07-09 08:29:37,405 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:29:37,486 [INFO] Authentication (password) successful!
+2025-07-09 08:29:37,486 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:29:37,855 [INFO] Comando personalizado executado: cd
+2025-07-09 08:30:12,936 [INFO] Connected (version 2.0, client OpenSSH_7.2p2)
+2025-07-09 08:30:13,039 [INFO] Authentication (password) successful!
+2025-07-09 08:30:13,040 [INFO] Conexão SSH: 10.1.1.110
+2025-07-09 08:30:13,364 [INFO] Usuários listados
