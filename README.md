@@ -1,6 +1,6 @@
 # VsServer - Gerenciador de Servidores SSH
 
-![VsServer Logo](https://via.placeholder.com/800x400?text=VsServer+Logo)
+![VsServer Logo](https://img.icons8.com/?size=100&id=2171&format=png&color=000000)
 
 VsServer é uma aplicação desktop intuitiva e poderosa, desenvolvida em Python com `CustomTkinter`, projetada para simplificar o gerenciamento de servidores SSH. Com uma interface gráfica amigável, você pode facilmente administrar usuários, grupos, monitorar o espaço em disco, executar comandos personalizados e muito mais, tudo a partir de um único local.
 
